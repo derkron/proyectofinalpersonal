@@ -1,0 +1,7 @@
+.banner{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/spotycgm.appspot.com/o/skilletbanner.jpg?alt=media&token=b798173e-cc86-4669-81de-0e8fa5fe4b53');
+    background-position: top center;
+    background-size: cover;
+    background-attachment:fixed ;
+    padding: 30%;
+}
