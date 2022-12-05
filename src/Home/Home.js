@@ -1,4 +1,6 @@
 import './Home.css'
+
+import { Footer } from '../Shared/Footer/Footer'
 export function Home(){
 
     return(
@@ -17,7 +19,7 @@ export function Home(){
                             <p>
                             Skillet es una banda de rock cristiano y metal cristiano​​​ originaria de Tennessee, fundada en 1996 y conformada por John y Korey Cooper, Seth Morrison y Jen Ledger. El grupo ha publicado once álbumes de estudio, el más reciente, Dominion, en el 2022.
                             </p>
-                            <img src="https://firebasestorage.googleapis.com/v0/b/spotycgm.appspot.com/o/bgt.jpg?alt=media&token=1b94f739-d7e5-4893-84c4-4ce5433f4c87"></img>
+                            <img src="https://firebasestorage.googleapis.com/v0/b/spotycgm.appspot.com/o/ghfg.jpg?alt=media&token=eec15564-ae3f-4f45-81b2-73806d017fee" alt=""></img>
 
                         </div>
                         <div class="col-12 col-md-4 ">
@@ -92,6 +94,8 @@ export function Home(){
                     </div>
                 </div>
             </section>
+            <Footer/>
+            
         </>
     )
 
