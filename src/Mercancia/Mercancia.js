@@ -1,6 +1,19 @@
+
+import { useNavigate } from "react-router-dom"
 import { Footer } from "../Shared/Footer/Footer"
 
 export function Mercancia(){
+    //Activamos la navegación entre componentes cuando se de un evento
+    let navegacion=useNavigate()
+
+    //que hago cuando se de el evento....
+    function detectarEvento(productoSeleccionado){
+        //console.log(productoSeleccionado)
+        navegacion('/tienda',{
+            state:{productoSeleccionado}
+        })
+    }
+
     let titulo="Nuestros productos"
 
     let productos=[
@@ -42,21 +55,35 @@ export function Mercancia(){
     return(
         <>
             <h1>{titulo}</h1>
-            <div class="container">
-                <div class="row row-cols-1 row-cols-md-3 g-5">
+            <div className="container">
+                <div className="row row-cols-1 row-cols-md-3 g-5">
 
                     {
 
-                        productos.map(function(producto){
+                        productos.map(function(producto,id){
                             return(
-                                <>
-                                    <div class="d-flex">
-                                        <div class="card h-100 shadow">
-                                            <img src={producto.foto} alt="foto" class="h-100 img-fluid"/>
+                                <div key={id}>
+                                    <div className="col">
+                                        <div className="card h-100 shadow">
+                                            
+                                            <img src={producto.foto} alt="foto" className="h-100 img-fluid w-100"/>
+                                            <p>
+                                                {producto.nombre}
+                                            </p>
+                                                <h4>Precio</h4>
+                                            <p>
+                                                {producto.precio}$
+                                            </p>
+
+                                            <button className="btn btn-primary mx-3 my-3" onClick={
+                                                function(){
+                                                    detectarEvento(producto)
+                                                }
+                                            }>Ampliar</button>
 
                                         </div>
                                     </div>
-                                </>
+                                </div>
                             )
                         })
                     }
