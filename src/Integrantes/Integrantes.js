@@ -29,7 +29,7 @@ export function Integrantes(){
         <>
             <h1>{banda}</h1> 
             <div className="container">
-                 <div className="row row-cols-1 row-cols-md-3 g-5">
+                 <div className="row row-cols-2 row-cols-md-2 g-5">
                     {
                         personas.map(function(persona){
                             return(
