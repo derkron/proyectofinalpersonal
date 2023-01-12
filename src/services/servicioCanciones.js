@@ -10,7 +10,7 @@ export async function servicioCancionesTop(){
 
     const PETICION={
         method:"GET",
-        headers:{Authorization:"Bearer BQA_p253o7EIM3sHAGPff4nUDPb33vKNXaupGWNNmOzSSGLI9zU3tjTwu9WlhXTN6VT6KC3zQw-koYyVXjy2yeNfkaKlMFQA3-o53Ue3PqUCBRteRQv-XkTDYKiD2vBPXFPZcPK0h478RKWbEdWCI6TozCqyzg5VVQtBjhz84magtT0x8KIGNCzCFMqavgw"}
+        headers:{Authorization:"Bearer BQCW8TD0YtLAs-41FpksXMNL8sTS9v1vW7CuwgfKKixjHAXKnEg5IacbA3_D9sbOQAZWe7W0lLHFrAOA0Jw4_yeU9cX20HpPdY8GDlRA57SS9OnP9Ly1jA6CfUJ1iCbXS6phFGoRahQdZ_G8bb1_RecsBnlouhrk7ouG5qDa66y542YQWjTcMUNY8jnV0_A"}
     }
 
 
@@ -19,5 +19,5 @@ export async function servicioCancionesTop(){
     let respuesta=await fetch(URL,PETICION)
     let canciones=await respuesta.json()
 
-    console.log(canciones)
+    return canciones
 }

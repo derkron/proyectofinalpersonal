@@ -32,6 +32,7 @@ export function Integrantes(){
                  <div className="row row-cols-2 row-cols-md-2 g-5">
                     {
                         personas.map(function(persona){
+                            
                             return(
                                 <>
                                     <div className="col-4">

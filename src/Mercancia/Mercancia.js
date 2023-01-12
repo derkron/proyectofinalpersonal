@@ -1,4 +1,4 @@
-
+import "./Mercancia.css"
 import { useNavigate } from "react-router-dom"
 import { Footer } from "../Shared/Footer/Footer"
 
@@ -72,7 +72,7 @@ export function Mercancia(){
                                     <div className="col">
                                         <div className="card h-100 shadow">
                                             
-                                            <img src={producto.foto} alt="foto" className="h-100 img-fluid w-100"/>
+                                            <img src={producto.foto} alt="foto" className=" img-fluid w-100 imagenes"/>
                                             <p>
                                                 {producto.nombre}
                                             </p>
