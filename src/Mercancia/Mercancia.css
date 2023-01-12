@@ -1,3 +1,17 @@
 .imagenes{
     height: 398px;
 }
+
+.tamaño_fuente{
+    font-size: 15px;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+.tamaño{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.tamaño_titulo{
+    text-align: center;
+}

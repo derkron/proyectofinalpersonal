@@ -60,7 +60,7 @@ export function Mercancia(){
 
     return(
         <>
-            <h1>{titulo}</h1>
+            <h1 className="tamaño_titulo">{titulo}</h1>
             <div className="container">
                 <div className="row row-cols-1 row-cols-md-3 g-5">
 
@@ -73,11 +73,11 @@ export function Mercancia(){
                                         <div className="card h-100 shadow">
                                             
                                             <img src={producto.foto} alt="foto" className=" img-fluid w-100 imagenes"/>
-                                            <p>
+                                            <p className="tamaño">
                                                 {producto.nombre}
                                             </p>
-                                                <h4>Precio</h4>
-                                            <p>
+                                                <h4 className="tamaño_fuente">Precio</h4>
+                                            <p className="tamaño_fuente">
                                                 {producto.precio}$
                                             </p>
 
