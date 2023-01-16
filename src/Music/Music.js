@@ -1,3 +1,4 @@
+import "./Music.css"
 import {servicioCancionesTop}from "../services/servicioCanciones"
 import { useState,useEffect } from "react"
 
@@ -31,25 +32,50 @@ export function Music(){
 
     }else{
         return(
-
             <>
+                <div className="container">
                 <h2>Canciones de la banda:</h2>
-                {
-                    canciones.tracks.map(function(cancion){
-                        console.log(cancion) // Estoy imprimiendo lo que traigo de spotify
-                        return(
-                            <div>
-                                <h1>{cancion.name}</h1>
-                                <audio controls src={cancion.preview_url}></audio>
-                                <img src={cancion.album.images[0].url}></img>
+                    <div className="row row-cols-1 row-cols-md-4 g-5">
+                        
 
-                            </div>
+                    {
+                        
+                        canciones.tracks.map(function(cancion){
+
+                        console.log(cancion)
+                            return(
+                                
+                                    <div className="col">
+                                        <div className="card h-100 shadow">
+                                            <img src={cancion.album.images[0].url} alt="foto" className=" img-fluid w-100 imagenes"></img>
+                                            <h3 className="fuente_nombre">{cancion.name}</h3>
+                                            <audio controls src={cancion.preview_url}className="audio"></audio>
+                                            <p className="fuente">Popularidad : {cancion.popularity}</p>
+                                            
+                                            
+
+                                            
+                                                
+                                            
+
+                                        </div>
+                                    </div>
+                                    
+                                
+                            )
                             
-                        )
-                    })
-                }
-            </>
+                        })
+                    }
+
+                </div>
+            </div>
+            
+            </> 
+            
         )
+
+
+    
         
     }
 

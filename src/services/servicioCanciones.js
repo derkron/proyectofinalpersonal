@@ -10,7 +10,7 @@ export async function servicioCancionesTop(){
 
     const PETICION={
         method:"GET",
-        headers:{Authorization:"Bearer BQCW8TD0YtLAs-41FpksXMNL8sTS9v1vW7CuwgfKKixjHAXKnEg5IacbA3_D9sbOQAZWe7W0lLHFrAOA0Jw4_yeU9cX20HpPdY8GDlRA57SS9OnP9Ly1jA6CfUJ1iCbXS6phFGoRahQdZ_G8bb1_RecsBnlouhrk7ouG5qDa66y542YQWjTcMUNY8jnV0_A"}
+        headers:{Authorization:"Bearer BQDegidUa70Q5pY8A_B32OKW2zYqoAaDFjEu9LMVIa57eRSA2XttQclpIrPYKC5mf-L1NbaI_no5xey8cyhQXUXbz8UHh5kMi8cxJgumTzhjn8lsMgtcJQWci9iogF8hPETkhtFHxR7xO0kmHa4HHb-ujInxySyufRB7T4ARNO2foFMBn8Cy5oDbG1xxX4M"}
     }
 
 
