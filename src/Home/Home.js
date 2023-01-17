@@ -22,17 +22,17 @@ export function Home(){
                             <img src="https://firebasestorage.googleapis.com/v0/b/spotycgm.appspot.com/o/ghfg.jpg?alt=media&token=eec15564-ae3f-4f45-81b2-73806d017fee" alt=""></img>
 
                         </div>
-                        <div className="col-12 col-md-4 ">
+                        <div className="col-12 col-md-4 cua">
                         
                             <div className="row">
                                 <div className="col-1">
                                     <i className="bi bi-vinyl fs-1"></i>
                                 </div>
                                 <div className="col">
-                                    <div className="row">
+                                    <div className="row mx-3">
                                         <h1>Cali</h1>
                                     </div>
-                                    <div className="row">
+                                    <div className="row mx-3">
                                         <h1>Dec 10</h1>
                                     </div>
                                 </div>
@@ -43,10 +43,10 @@ export function Home(){
                                     <i className="bi bi-vinyl fs-1"></i>
                                 </div>
                                 <div className="col">
-                                    <div className="row">
+                                    <div className="row mx-3">
                                         <h1>Bogota</h1>
                                     </div>
-                                    <div className="row">
+                                    <div className="row mx-3">
                                         <h1>Dec 25</h1>
                                     </div>
                                 </div>
@@ -56,10 +56,10 @@ export function Home(){
                                     <i className="bi bi-vinyl fs-1"></i>
                                 </div>
                                 <div className="col">
-                                    <div className="row">
+                                    <div className="row mx-3">
                                         <h1>Barranquilla</h1>
                                     </div>
-                                    <div className="row">
+                                    <div className="row mx-3">
                                         <h1>Dec 30</h1>
                                     </div>
                                 </div>

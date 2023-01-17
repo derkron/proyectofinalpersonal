@@ -1,7 +1,6 @@
-.audio{
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 250px;
+audio{
+    height: 40px;
+    width: 100%;
 }
 .fuente{
     text-align: center;

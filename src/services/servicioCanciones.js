@@ -1,6 +1,9 @@
 //RECETA PARA CONSUMIR UN API CON REACT
+import { generarToken } from "./servivcioToken"
 
 export async function servicioCancionesTop(){
+
+    let token=await generarToken()
 
     //1. Pa onde vas y a que vas, escribir la url del serevicio del api
     const URL="https://api.spotify.com/v1/artists/49bzE5vRBRIota4qeHtQM8/top-tracks?market=US"
@@ -10,7 +13,7 @@ export async function servicioCancionesTop(){
 
     const PETICION={
         method:"GET",
-        headers:{Authorization:"Bearer BQDegidUa70Q5pY8A_B32OKW2zYqoAaDFjEu9LMVIa57eRSA2XttQclpIrPYKC5mf-L1NbaI_no5xey8cyhQXUXbz8UHh5kMi8cxJgumTzhjn8lsMgtcJQWci9iogF8hPETkhtFHxR7xO0kmHa4HHb-ujInxySyufRB7T4ARNO2foFMBn8Cy5oDbG1xxX4M"}
+        headers:{Authorization:token}
     }
 
 

@@ -35,17 +35,17 @@ export function Music(){
             <>
                 <div className="container">
                 <h2>Canciones de la banda:</h2>
-                    <div className="row row-cols-1 row-cols-md-4 g-5">
+                    <div className="row row-cols-1 row-cols-md-5 g-5">
                         
 
                     {
                         
-                        canciones.tracks.map(function(cancion){
+                        canciones.tracks.map(function(cancion, index){
 
-                        console.log(cancion)
+                        
                             return(
                                 
-                                    <div className="col">
+                                    <div className="col" key={index}>
                                         <div className="card h-100 shadow">
                                             <img src={cancion.album.images[0].url} alt="foto" className=" img-fluid w-100 imagenes"></img>
                                             <h3 className="fuente_nombre">{cancion.name}</h3>

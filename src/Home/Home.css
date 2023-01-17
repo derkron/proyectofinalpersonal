@@ -5,3 +5,10 @@
     background-attachment:fixed ;
     padding: 30%;
 }
+
+.cua{
+    border:2px rgb(185, 139, 149) solid;
+    padding-left: 80px;
+    padding-top: 30px;
+    background-color: gray;
+}
