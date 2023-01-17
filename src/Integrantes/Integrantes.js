@@ -18,7 +18,7 @@ export function Integrantes(){
         {
             id:3,
             nombre:"Jen Ledger",
-            foto:"https://firebasestorage.googleapis.com/v0/b/spotycgm.appspot.com/o/ledger-jen-image.webp?alt=media&token=25d79a90-7736-4f97-8515-7e9a7c47a500",
+            foto:"https://firebasestorage.googleapis.com/v0/b/spotycgm.appspot.com/o/Jen.webp?alt=media&token=e86fb654-6472-491e-9c7c-b8a64d188d46",
             descripcion:": es la baterista, compositora y corista de la banda de rock Skillet. También es la vocalista y líder de su propia banda LEDGER, proyecto que lanzó su primer EP en abril de 2018. A los 18 años se convirtió en la baterista cuando se retiró el exbaterista de la banda Lori Peters.Nació en Coventry, Inglaterra. Llegó a los Estados Unidos a los 16 años sus estudios los realizó en Light School of Worship en Kenosha, Wisconsin. Ledger dice y cito «yo sabía muy poco de la banda así que llevó tres años todavía de estar aquí tocando en la banda Skillet Viajó como baterista de Skillet en el 'Tour Comatose',​ donde cantó como solista en la canción 'Mi espera.' o 'Yours to Hold' Ledger canta en el tema 'Hero'​ en su más reciente y 'Awake & Alive'​ en el álbum Awake. También hace los coros en la canción 'Monster' en el remix recientemente presentado como la introducción a un pódcast oficial de la banda.​El año 2018 lanzó su EP debut como solista, bajo el título de 'LEDGER', con su lead single 'Not Dead Yet' el cual cuenta con 6 canciones, incluyendo una colaboración con John Cooper en el tema 'Warrior'. Además irá de gira junto a Skillet con su propia banda 'LEDGER' y también como baterista y vocales de Skillet."
             
         },
